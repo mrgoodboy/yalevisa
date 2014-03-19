@@ -129,10 +129,17 @@ p {
 	height: 200px;
 	display: inline-block;
 	text-align: center;
+	background-color: #fdf3de;
+	padding-bottom: 10px;
 }
 .profile > img{
 	width: 100%;
 }
+
+.member-info {
+	vertical-align: bottom;
+}
+
 
 .position {
 	margin-top:0px;
