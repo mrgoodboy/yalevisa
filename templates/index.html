@@ -1,1 +1,171 @@
-ViSA's future website is under construction.
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}">
+	<title>ViSA - Vietnamese Students Association at Yale</title>
+
+	<script type="text/javascript" src="{{ url_for('static', filename='javascript/jquery.min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='javascript/script.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='javascript/jquery.bxslider.min.js') }}"></script>
+	<link href="{{ url_for('static', filename='stylesheets/jquery.bxslider.css') }}" rel="stylesheet" />
+</head>
+
+<body>
+	<div id="header">
+	</div>
+
+
+	<img id="logo" src="{{ url_for('static', filename='img/logo.png') }}"/>
+	<div id="hero-container">
+		<img id="hero" src="{{ url_for('static', filename='img/blurred-hero.jpg') }}"/>
+	</div>
+	<div id="navbar">
+		<a class="navlink" id="home-link" href="#">HOME</a>
+		<a class="navlink" id="board-link" href="#">BOARD</a>
+		<a class="navlink" id="events-link" href="#">EVENTS</a>
+		<a class="navlink" id="connect-link" href="#">CONNECT</a>
+	</div>
+
+	<div id="content">
+		<div id="home">
+			<h1>Welcome to ViSA!</h1>
+			<div class="left-col">	
+				<p class="body-text">
+					Xin kính chào! 
+
+					Twenty-six years ago, the Vietnamese Student Association (ViSA) began with only a few members. What was once a small band of friends has now grown into a large, yet cozy family of 40+ members. At the core of our group is a dedicated board of 10 members, working to give our members fun events and a warm, communal atmosphere. 
+				</p>
+				<p class="body-text">
+					Each year, ViSA hosts several marquee events. Phở Night, our biggest event, brings in more than 400 people each year. Our annual cultural show showcases both the cultural aspects of Vietnam and the individual talents of our members, and our cultural dinner features the best of Vietnamese cuisine, as well as the history behind each dish. In addition to our food events, we also host Master's Teas, inviting influential members of the Vietnamese-American community. 
+				</p>
+				<p class="body-text">
+					If you're looking for a great group of friends, join us at one of our Thursday dinners in the Davenport Dive at 5:30 PM, or if you're looking for a fun time, come to one of our many events. So, from the both of us, and each of our members, we invite you to join our family, to laugh a little, live a little, and most importantly have some fun. You won't be disappointed. 
+				</p>
+				<p class="body-text">
+					Your presidents
+					<br>
+					Jenny Nguyen &amp; Kevin Nguyen
+				</p>
+			</div>
+			<div class="right-col">
+				<img id="main-img" src="{{ url_for('static', filename='img/dance.jpg') }}">
+			</div>
+		</div>
+
+		<div id="board">
+			<h1>Our lovely board</h1>
+			<div class="row">
+				<a class="profile">
+					<img src="{{ url_for('static', filename='img/temp.png') }}">
+					<p class="name">Kevin Nguyen</p>
+					<p class="position"><em>President</em></p>
+				</a>
+				<a class="profile">
+					<img src="{{ url_for('static', filename='img/temp.png') }}">
+					<p class="name">Kevin Nguyen</p>
+					<p class="position"><em>President</em></p>
+				</a>
+				<a class="profile">
+					<img src="{{ url_for('static', filename='img/temp.png') }}">
+					<p class="name">Kevin Nguyen</p>
+					<p class="position"><em>President</em></p>
+				</a>
+				<a class="profile">
+					<img src="{{ url_for('static', filename='img/temp.png') }}">
+					<p class="name">Kevin Nguyen</p>
+					<p class="position"><em>President</em></p>
+				</a>
+			</div>
+			<div class="row">
+				<a class="profile">
+					<img src="{{ url_for('static', filename='img/temp.png') }}">
+					<p class="name">Kevin Nguyen</p>
+					<p class="position"><em>President</em></p>
+				</a>
+				<a class="profile">
+					<img src="{{ url_for('static', filename='img/temp.png') }}">
+					<p class="name">Kevin Nguyen</p>
+					<p class="position"><em>President</em></p>
+				</a>
+				<a class="profile">
+					<img src="{{ url_for('static', filename='img/temp.png') }}">
+					<p class="name">Kevin Nguyen</p>
+					<p class="position"><em>President</em></p>
+				</a>
+				<a class="profile">
+					<img src="{{ url_for('static', filename='img/temp.png') }}">
+					<p class="name">Kevin Nguyen</p>
+					<p class="position"><em>President</em></p>
+				</a>
+			</div>
+			<div class="row">
+				<a class="profile">
+					<img src="{{ url_for('static', filename='img/temp.png') }}">
+					<p class="name">Kevin Nguyen</p>
+					<p class="position"><em>President</em></p>
+				</a>
+				<a class="profile">
+					<img src="{{ url_for('static', filename='img/temp.png') }}">
+					<p class="name">Kevin Nguyen</p>
+					<p class="position"><em>President</em></p>
+				</a>
+				<a class="profile">
+					<img src="{{ url_for('static', filename='img/temp.png') }}">
+					<p class="name">Kevin Nguyen</p>
+					<p class="position"><em>President</em></p>
+				</a>
+				<a class="profile">
+					<img src="{{ url_for('static', filename='img/temp.png') }}">
+					<p class="name">Kevin Nguyen</p>
+					<p class="position"><em>President</em></p>
+				</a>
+			</div>
+		</div>
+
+		<div id="events">
+			<h1>Our Awesome Events</h1>
+			<ul class="bxslider">
+				<li><img src="{{ url_for('static', filename='img/events/1.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/2.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/3.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/4.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/5.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/6.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/7.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/8.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/9.jpg') }}"></li>
+
+			</ul>
+		</div>
+
+		<div id="connect">
+			<h1>Connect With Us</h1>
+			<p class="body-text">
+				Always feel free to email any of us, we are all very friendly and would love to answer all your questions.
+			</p>
+
+			<p class="body-text">
+				If your are not yet on our mailing list, sign up immediately using the form below to get emails about the most awesome events with the best food.
+			</p>
+			<div id="mailing-list-form">
+				<input type="text" placeholder="Name">
+				<input type="text" placeholder="Email">
+				<button id="mlist">Submit</button>
+			</div>
+
+			<p class="body-text">
+				Like us on Facebook to find out where the free food is at.
+			</p>
+			<img id="fb-icon" src="{{ url_for('static', filename='img/facebook-icon.png') }}">
+			
+			
+			
+		</div>
+	</div>
+	<div id="footer">
+		&copy; Copyright 2014 by Minh Tri Pham
+	</div>
+	
+
+</body>
+</html>
