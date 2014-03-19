@@ -6,6 +6,10 @@
 
 body {
 	width: 100%;
+}
+
+.anchor {
+	top: -80px;
 	position: relative;
 }
 
@@ -104,7 +108,7 @@ p {
 
 
 #home {
-	margin-bottom: 1em;
+	margin-bottom: 3em;
 	padding-left: 15%;
 	padding-right: 15%;
 	width: 70%;
@@ -116,7 +120,6 @@ p {
 	padding-left: 15%;
 	padding-right: 15%;
 	width: 70%;
-	margin-top: 3em;
 	padding-bottom: 3em;
 	height: 836px;
 }
@@ -149,6 +152,7 @@ p {
 	padding-left: 15%;
 	padding-right: 15%;
 	width: 70%;
+	padding-bottom: 3em;
 }
 
 .bxslider > li {
@@ -160,18 +164,18 @@ p {
 }
 
 #connect {
-	height: 500px;
 	padding-left: 15%;
 	padding-right: 15%;
+	padding-bottom: 5em;
 	width: 70%;
 	background-color: #ffeedd;
 }
 #mailing-list-form {
-	margin-top: 0.7em;
+	margin-top: 1em;
 }
 #fb-icon {
 	float: right;
-	margin-top: 0.7em;
+	margin-top: 1em;
 }
 
 

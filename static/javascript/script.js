@@ -13,4 +13,23 @@
   		adaptiveHeight: true,
   		mode: 'fade'
   	});
+
+  	function scrollToAnchor(aid){
+  		console.log(aid);
+  		var aTag = $("a[name='"+ aid +"']");
+  		$('html,body').animate({scrollTop: aTag.offset().top},'slow');
+  	}
+
+  	$(".navlink").click(function(){
+  		scrollToAnchor($(this).text().toLowerCase());
+
+  	});
+
+  	$("#logo").click(function(){
+  		$('html,body').animate({scrollTop: 0},'slow');
+  	});
+
+
+
+
   });

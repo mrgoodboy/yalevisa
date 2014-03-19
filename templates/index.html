@@ -20,13 +20,14 @@
 		<img id="hero" src="{{ url_for('static', filename='img/blurred-hero.jpg') }}"/>
 	</div>
 	<div id="navbar">
-		<a class="navlink" id="home-link" href="#">HOME</a>
-		<a class="navlink" id="board-link" href="#">BOARD</a>
-		<a class="navlink" id="events-link" href="#">EVENTS</a>
-		<a class="navlink" id="connect-link" href="#">CONNECT</a>
+		<span class="navlink" id="home-link" href="">HOME</span>
+		<span class="navlink" id="board-link" href="">BOARD</span>
+		<span class="navlink" id="events-link" href="">EVENTS</span>
+		<span class="navlink" id="connect-link" href="">CONNECT</span>
 	</div>
 
 	<div id="content">
+		<a class="anchor" name="home"></a>
 		<div id="home">
 			<h1>Welcome to ViSA!</h1>
 			<div class="left-col">	
@@ -51,8 +52,9 @@
 				<img id="main-img" src="{{ url_for('static', filename='img/dance.jpg') }}">
 			</div>
 		</div>
-
+		<a class="anchor" name="board"> </a>
 		<div id="board">
+			
 			<h1>Our lovely board</h1>
 			<div class="row">
 				<a class="profile">
@@ -123,7 +125,7 @@
 				</a>
 			</div>
 		</div>
-
+		<a class="anchor" name="events"></a>
 		<div id="events">
 			<h1>Our Awesome Events</h1>
 			<ul class="bxslider">
@@ -139,7 +141,7 @@
 
 			</ul>
 		</div>
-
+		<a class="anchor" name="connect"></a>
 		<div id="connect">
 			<h1>Connect With Us</h1>
 			<p class="body-text">
@@ -166,7 +168,7 @@
 		</div>
 	</div>
 	<div id="footer">
-		&copy; Copyright 2014 by Minh Tri Pham
+		&copy; Minh Tri Pham, 2014
 	</div>
 	
 
