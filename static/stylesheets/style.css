@@ -6,6 +6,8 @@
 
 body {
 	width: 100%;
+	padding-top: 85px;
+	background-color: #000000;
 }
 
 .anchor {
@@ -14,14 +16,6 @@ body {
 }
 
 /*header*/
-#header {
-	margin-top: 0px;
-	height: 85px;
-	width: 100%;
-	background-color: #000000;
-	text-align: center;
-}
-
 #logo {
 	height: 80px;
 	position: fixed;
@@ -65,10 +59,12 @@ body {
     z-index: 1;
 }
 
-/*content*/
+/*content*/	
+
 #content {
-	background-color: #fdf3de;
+	background-color: #FFFBF6;
 }
+
 
 h1 {
 	padding-top: 1em;
@@ -83,27 +79,14 @@ p {
 	margin-top: 1em;
 }
 
+#welcome-header {
+	margin-right: 15%;
+}
+
 .body-text {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 12pt;
 	color: #400e29;
-}
-
-.left-col {
-	display: inline-block;
-	width: 65%;
-	margin-right: 1em;
-}
-
-.right-col {
-	display: inline-block;
-	width: 30%;
-}
-
-#main-img {
-	display: inline-block;
-	width:100%;
-	padding-bottom: 57%;
 }
 
 
@@ -112,27 +95,60 @@ p {
 	padding-left: 15%;
 	padding-right: 15%;
 	width: 70%;
+	display: table;
+}
+
+
+.left-col {
+	display: table-cell;
+	width: 65%;
+	padding-right: 2em;
+}
+
+.right-col {
+	display: table-cell;
+	width: 34%;
+}
+
+#main-img {
+	margin-top: 2.2em;
+	width:100%;
+	vertical-align: top;
+}
+
+
+
+
+
+
+#swag {
+	margin-right: 3em;
 }
 
 #board {
-	background: url('../img/board-photo.jpg');
-	background-size: 100% 100%;
+	margin-bottom: 3em;
+}
+
+#board > #board-photo {
+	width: 100%;
+}
+
+#board > #members {
 	padding-left: 15%;
 	padding-right: 15%;
 	width: 70%;
-	padding-bottom: 3em;
-	height: 836px;
 }
+
 #board > .row {
 	margin-bottom: 1em;
 }
 .profile {
+	background-color: #dddddd;
 	width: 22%;
-	margin-left:2%;
-	height: 200px;
+	margin-left: 2%;
+	margin-top: 2em;
 	display: inline-block;
 	text-align: center;
-	background-color: #fdf3de;
 	padding-bottom: 10px;
 }
 .profile > img{
@@ -149,6 +165,7 @@ p {
 }
 
 #events {
+	background-color: #ffeedd;
 	padding-left: 15%;
 	padding-right: 15%;
 	width: 70%;
@@ -168,7 +185,8 @@ p {
 	padding-right: 15%;
 	padding-bottom: 5em;
 	width: 70%;
-	background-color: #ffeedd;
+	background-color: #FFE5D0;
+	
 }
 #mailing-list-form {
 	margin-top: 1em;

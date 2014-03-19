@@ -11,8 +11,6 @@
 </head>
 
 <body>
-	<div id="header">
-	</div>
 
 
 	<img id="logo" src="{{ url_for('static', filename='img/logo.png') }}"/>
@@ -28,11 +26,14 @@
 
 	<div id="content">
 		<a class="anchor" name="home"></a>
+		<h1 id="welcome-header">Welcome to ViSA!</h1>
+
 		<div id="home">
-			<h1>Welcome to ViSA!</h1>
 			<div class="left-col">	
 				<p class="body-text">
-					Xin kính chào! 
+					Chào các bạn! 
+				</p>
+				<p class="body-text">
 
 					Twenty-six years ago, the Vietnamese Student Association (ViSA) began with only a few members. What was once a small band of friends has now grown into a large, yet cozy family of 40+ members. At the core of our group is a dedicated board of 10 members, working to give our members fun events and a warm, communal atmosphere. 
 				</p>
@@ -53,76 +54,79 @@
 			</div>
 		</div>
 		<a class="anchor" name="board"> </a>
+
 		<div id="board">
-			
-			<h1>Our lovely board</h1>
-			<div class="row">
-				<a class="profile">
-					<img src="{{ url_for('static', filename='img/temp.png') }}">
-					<div class="member-info">
-					<p class="name">Kevin Nguyen</p>
-					<p class="position"><em>President</em></p>
-					</div>
-				</a>
-				<a class="profile">
-					<img src="{{ url_for('static', filename='img/temp.png') }}">
-					<p class="name">Kevin Nguyen</p>
-					<p class="position"><em>President</em></p>
-				</a>
-				<a class="profile">
-					<img src="{{ url_for('static', filename='img/temp.png') }}">
-					<p class="name">Kevin Nguyen</p>
-					<p class="position"><em>President</em></p>
-				</a>
-				<a class="profile">
-					<img src="{{ url_for('static', filename='img/temp.png') }}">
-					<p class="name">Kevin Nguyen</p>
-					<p class="position"><em>President</em></p>
-				</a>
-			</div>
-			<div class="row">
-				<a class="profile">
-					<img src="{{ url_for('static', filename='img/temp.png') }}">
-					<p class="name">Kevin Nguyen</p>
-					<p class="position"><em>President</em></p>
-				</a>
-				<a class="profile">
-					<img src="{{ url_for('static', filename='img/temp.png') }}">
-					<p class="name">Kevin Nguyen</p>
-					<p class="position"><em>President</em></p>
-				</a>
-				<a class="profile">
-					<img src="{{ url_for('static', filename='img/temp.png') }}">
-					<p class="name">Kevin Nguyen</p>
-					<p class="position"><em>President</em></p>
-				</a>
-				<a class="profile">
-					<img src="{{ url_for('static', filename='img/temp.png') }}">
-					<p class="name">Kevin Nguyen</p>
-					<p class="position"><em>President</em></p>
-				</a>
-			</div>
-			<div class="row">
-				<a class="profile">
-					<img src="{{ url_for('static', filename='img/temp.png') }}">
-					<p class="name">Kevin Nguyen</p>
-					<p class="position"><em>President</em></p>
-				</a>
-				<a class="profile">
-					<img src="{{ url_for('static', filename='img/temp.png') }}">
-					<p class="name">Kevin Nguyen</p>
-					<p class="position"><em>President</em></p>
-				</a>
-				<a class="profile">
-					<img src="{{ url_for('static', filename='img/temp.png') }}">
-					<p class="name">Kevin Nguyen</p>
-					<p class="position"><em>President</em></p>
-				</a>
-				<a class="profile">
-					<img src="{{ url_for('static', filename='img/temp.png') }}">
-					<p class="name">Kevin Nguyen</p>
-					<p class="position"><em>President</em></p>
-				</a>
+			<img id="board-photo" src="{{ url_for('static', filename='img/board-photo1.jpg') }}">
+			<div id="members">
+				<h1> Lovely Members</h1>
+				<div class="row">
+					<a class="profile">
+						<img src="{{ url_for('static', filename='img/temp.png') }}">
+						<div class="member-info">
+							<p class="name">Kevin Nguyen</p>
+							<p class="position"><em>President</em></p>
+						</div>
+					</a>
+					<a class="profile">
+						<img src="{{ url_for('static', filename='img/temp.png') }}">
+						<p class="name">Kevin Nguyen</p>
+						<p class="position"><em>President</em></p>
+					</a>
+					<a class="profile">
+						<img src="{{ url_for('static', filename='img/temp.png') }}">
+						<p class="name">Kevin Nguyen</p>
+						<p class="position"><em>President</em></p>
+					</a>
+					<a class="profile">
+						<img src="{{ url_for('static', filename='img/temp.png') }}">
+						<p class="name">Kevin Nguyen</p>
+						<p class="position"><em>President</em></p>
+					</a>
+				</div>
+				<div class="row">
+					<a class="profile">
+						<img src="{{ url_for('static', filename='img/temp.png') }}">
+						<p class="name">Kevin Nguyen</p>
+						<p class="position"><em>President</em></p>
+					</a>
+					<a class="profile">
+						<img src="{{ url_for('static', filename='img/temp.png') }}">
+						<p class="name">Kevin Nguyen</p>
+						<p class="position"><em>President</em></p>
+					</a>
+					<a class="profile">
+						<img src="{{ url_for('static', filename='img/temp.png') }}">
+						<p class="name">Kevin Nguyen</p>
+						<p class="position"><em>President</em></p>
+					</a>
+					<a class="profile">
+						<img src="{{ url_for('static', filename='img/temp.png') }}">
+						<p class="name">Kevin Nguyen</p>
+						<p class="position"><em>President</em></p>
+					</a>
+				</div>
+				<div class="row">
+					<a class="profile">
+						<img src="{{ url_for('static', filename='img/temp.png') }}">
+						<p class="name">Kevin Nguyen</p>
+						<p class="position"><em>President</em></p>
+					</a>
+					<a class="profile">
+						<img src="{{ url_for('static', filename='img/temp.png') }}">
+						<p class="name">Kevin Nguyen</p>
+						<p class="position"><em>President</em></p>
+					</a>
+					<a class="profile">
+						<img src="{{ url_for('static', filename='img/temp.png') }}">
+						<p class="name">Kevin Nguyen</p>
+						<p class="position"><em>President</em></p>
+					</a>
+					<a class="profile">
+						<img src="{{ url_for('static', filename='img/temp.png') }}">
+						<p class="name">Kevin Nguyen</p>
+						<p class="position"><em>President</em></p>
+					</a>
+				</div>
 			</div>
 		</div>
 		<a class="anchor" name="events"></a>
@@ -161,16 +165,16 @@
 				Like us on Facebook to find out where the free food is at.
 			</p>
 			<a href="https://www.facebook.com/yale.visa" target="_blank">
-			<img id="fb-icon" src="{{ url_for('static', filename='img/facebook-icon.png') }}"></a>
-			
-			
-			
-		</div>
-	</div>
-	<div id="footer">
-		&copy; Minh Tri Pham, 2014
-	</div>
-	
+				<img id="fb-icon" src="{{ url_for('static', filename='img/facebook-icon.png') }}"></a>
 
-</body>
-</html>
+
+
+			</div>
+		</div>
+		<div id="footer">
+			&copy; Minh Tri Pham, 2014
+		</div>
+
+
+	</body>
+	</html>
