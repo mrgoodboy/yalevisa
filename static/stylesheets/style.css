@@ -132,7 +132,7 @@ p {
 }
 
 #board > #board-photo {
-	width: 100%;
+	max-width: 100%;
 }
 
 #board > #members {
@@ -154,7 +154,7 @@ p {
 	padding-bottom: 10px;
 }
 .profile > img{
-	width: 100%;
+	max-width: 100%;
 }
 
 .member-info {
