@@ -63,6 +63,7 @@ body {
 
 #content {
 	background-color: #FFFBF6;
+	width: 100%;
 }
 
 
@@ -186,7 +187,7 @@ p {
 	padding-bottom: 5em;
 	width: 70%;
 	background-color: #FFE5D0;
-	
+
 }
 #mailing-list-form {
 	margin-top: 1em;
