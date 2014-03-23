@@ -1,7 +1,7 @@
   $(document).ready(function(){
 	//navbar stick to top
 	$(window).bind('scroll', function() {
-		if ($(window).scrollTop() > 571) {
+		if ($(window).scrollTop() > ($('#navbar').height() + $('#hero').height())) {
 			$('#navbar').addClass('fixed');
 			$('#content').css('padding-top', '80px');
 		}
