@@ -253,7 +253,8 @@ effect: function(offset) {
 		content: { 
 			title: '<h2>Hannah Truong</h2>',
 			text: buildprofile('/static/img/dance.jpg', 'Chào mừng bạn đến trường đại học Yale!' + 
-				'<br><br>My name is Hannah, and I am a freshman in Morse College hailing from Seattle, Washington. I hope to fulfill a science degree in biochemistry at Yale and continue on to medical school, with a particular interest in the business side of healthcare. On campus, I am also involved in the Freshman Class Council and Morse College Council. I am a member of the Yale Cheerleading Squad (Go Bulldogs!), Kappa Kappa Gamma sorority and the Leadership Education and Development (LEAD) Program. '+
+				'<br><br>My name is Hannah, and I am a freshman in Morse College hailing from Seattle, Washington. I hope to fulfill a science degree in biochemistry at Yale and continue on to medical school, with a particular interest in the business side of healthcare. '+
+				'<br><br>On campus, I am also involved in the Freshman Class Council and Morse College Council. I am a member of the Yale Cheerleading Squad (Go Bulldogs!), Kappa Kappa Gamma sorority and the Leadership Education and Development (LEAD) Program. '+
 				'<br><br>In my free time, I like to dance with the Yale Phoenix Asian Dance Team and cook food for my friends in the Morse student kitchen… Pho of course!'
 				+'<hr>Email me at <a href="mailto:hannah.truong@yale.edu">hannah.truong@yale.edu</a> '),
 			button: true
