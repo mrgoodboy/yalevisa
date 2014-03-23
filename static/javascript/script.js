@@ -144,10 +144,10 @@ effect: function(offset) {
 	$(this).qtip({ 
 		content: { 
 			title: '<h2>Johnny Xu</h2>',
-			text: buildprofile('/static/img/dance.jpg', 'Hello friends! <br><br> I’m Kevin (P.), ES ‘16, and I hail from the wild realm of Ohio, from a suburb devoid of much cultural diversity. When I’m not doing Asian things, you can find me playing in DPops and SYO, raising roundworms at the School of Medicine, crying over Kdramas, or getting fat from baked goods and ice cream. I also go to school.' + 
-				'<br><br>I got involved with ViSA last year to make up for this lack of culture in my life, and to obey my mother by making lots of “nice Vietnamese friends”. After a term as social chair, I now humbly serve as co-president of the most beautiful and talented cultural group on campus. I hope you’ll join me and the rest of ViSA in having a fun and delicious year!' +
-				'<br><br>See you at our next event (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧'
-				+'<hr>Email me at <a href="mailto:johnny.xu@yale.edu">johnny.xu@yale.edu</a> '),
+			text: buildprofile('/static/img/dance.jpg', 'Chào bạn!' + 
+				'<br><br>You can call me Johnny.I spent 52% of my life in Dalian, China (complicated) where I was born, 20% in Canada (freedom), 18% in Seattle (most livable city), and 10% in New Orleans (warm, crawfish).'+
+				'<br><br>I\'m currently undecided about my major, but I enjoy learning economics and other social sciences very much. I enjoy playing basketball and making music. When the new series come out please watch it at "http://www.fox.com/24-live-another-day/" because it\'s my favorite show other than VISA\'s annual cultural show!' 
+				+'<hr>Let\'s chill at <a href="mailto:zhaoning.xu@yale.edu">zhaoning.xu@yale.edu</a> '),
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
