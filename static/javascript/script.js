@@ -66,17 +66,22 @@
 					button: true
 				},
 				style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-				hide: {
-					event: 'unfocus'
-				},
+
 				show: {
-					event: 'click'
-				},
-				position: {
+					event: 'click',
+					solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
+    },
+    position: {
 			        my: 'top left',  // Position my top left...
 			        at: 'bottom right', // at the bottom right of...
 			        target: $(this) // my target,
 			        
+			    },
+			    hide: {
+			    	event: 'click'
 			    }
 			});
 } else if (position == 'president2') {
@@ -90,40 +95,48 @@
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		hide: {
-			event: 'unfocus'
-		},
 		show: {
-			event: 'click'
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
 		},
 		position: {
 			        my: 'top left',  // Position my top left...
 			        at: 'bottom left', // at the bottom right of...
 			        target: $(this) // my target,
 
+			    },
+			    hide: {
+			    	event: 'click'
 			    }
 			});
 } else if (position == 'political1') {
 	$(this).qtip({ 
 		content: { 
 			title: '<h2>Mark Pham</h2>',
-			text: buildprofile('/static/img/dance.jpg', 'Hello friends! <br><br> I’m Kevin (P.), ES ‘16, and I hail from the wild realm of Ohio, from a suburb devoid of much cultural diversity. When I’m not doing Asian things, you can find me playing in DPops and SYO, raising roundworms at the School of Medicine, crying over Kdramas, or getting fat from baked goods and ice cream. I also go to school.' + 
-				'<br><br>I got involved with ViSA last year to make up for this lack of culture in my life, and to obey my mother by making lots of “nice Vietnamese friends”. After a term as social chair, I now humbly serve as co-president of the most beautiful and talented cultural group on campus. I hope you’ll join me and the rest of ViSA in having a fun and delicious year!' +
-				'<br><br>See you at our next event (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧'
+			text: buildprofile('/static/img/dance.jpg', 'Hi guys! <br><br>' + 
+				'I hail from the beautiful suburb of Springfield, Virginia, where I moved to from Saigon five years ago.  A poli sci major, I love anything  diplomacy, in theory as well as practice.  Eventually, I want to work for the State Department and serve as an IR professor somewhere.' + 
+				'<br><br>In my free time, if there is ever any, I enjoy hanging out with  friends and playing sports.  Most recently, I\'ve rediscovered my passion for soccer. I\'m terrible at it, but haven\'t given up.  As Vietnamese like to say, "Đá hay không bằng hay đá" (playing soccer often is better than just being good at it).  So hopefully, one of these days my wish to persist will reward me with a goal....or at least prevent me from scoring one in the wrong end :D'
 				+'<hr>Email me at <a href="mailto:mark.pham@yale.edu">mark.pham@yale.edu</a> '),
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		hide: {
-			event: 'unfocus'
-		},
 		show: {
-			event: 'click'
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
 		},
 		position: {
 			        my: 'top right',  // Position my top left...
 			        at: 'bottom right', // at the bottom right of...
 			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
 			    }
 
 			});
@@ -138,16 +151,20 @@
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		hide: {
-			event: 'unfocus'
-		},
 		show: {
-			event: 'click'
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
 		},
 		position: {
 			        my: 'top right',  // Position my top left...
 			        at: 'bottom left', // at the bottom right of...
 			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
 			    }
 			});
 } else if (position == 'social1') {
@@ -161,16 +178,20 @@
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		hide: {
-			event: 'unfocus'
-		},
 		show: {
-			event: 'click'
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
 		},
 		position: {
 			        my: 'top left',  // Position my top left...
 			        at: 'bottom right', // at the bottom right of...
 			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
 			    }
 			});
 } else if (position == 'social2') {
@@ -180,20 +201,24 @@
 			text: buildprofile('/static/img/dance.jpg', 'Hello friends! <br><br> I’m Kevin (P.), ES ‘16, and I hail from the wild realm of Ohio, from a suburb devoid of much cultural diversity. When I’m not doing Asian things, you can find me playing in DPops and SYO, raising roundworms at the School of Medicine, crying over Kdramas, or getting fat from baked goods and ice cream. I also go to school.' + 
 				'<br><br>I got involved with ViSA last year to make up for this lack of culture in my life, and to obey my mother by making lots of “nice Vietnamese friends”. After a term as social chair, I now humbly serve as co-president of the most beautiful and talented cultural group on campus. I hope you’ll join me and the rest of ViSA in having a fun and delicious year!' +
 				'<br><br>See you at our next event (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧'
-				+'<hr>Email me at <a href="mailto:jason.liu@yale.edu">jason.liu@yale.edu</a> '),
+				+'<hr>Email me at <a href="mailto:jason.j.liu@yale.edu">jason.j.liu@yale.edu</a> '),
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		hide: {
-			event: 'unfocus'
-		},
 		show: {
-			event: 'click'
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
 		},
 		position: {
 			        my: 'top left',  // Position my top left...
 			        at: 'bottom left', // at the bottom right of...
 			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
 			    }
 			});
 } else if (position == 'social3') {
@@ -207,39 +232,47 @@
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		hide: {
-			event: 'unfocus'
-		},
 		show: {
-			event: 'click'
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
 		},
 		position: {
 			        my: 'top right',  // Position my top left...
 			        at: 'bottom right', // at the bottom right of...
 			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
 			    }
 			});
 } else if (position == 'publicity') {
 	$(this).qtip({ 
 		content: { 
 			title: '<h2>Hannah Truong</h2>',
-			text: buildprofile('/static/img/dance.jpg', 'Hello friends! <br><br> I’m Kevin (P.), ES ‘16, and I hail from the wild realm of Ohio, from a suburb devoid of much cultural diversity. When I’m not doing Asian things, you can find me playing in DPops and SYO, raising roundworms at the School of Medicine, crying over Kdramas, or getting fat from baked goods and ice cream. I also go to school.' + 
-				'<br><br>I got involved with ViSA last year to make up for this lack of culture in my life, and to obey my mother by making lots of “nice Vietnamese friends”. After a term as social chair, I now humbly serve as co-president of the most beautiful and talented cultural group on campus. I hope you’ll join me and the rest of ViSA in having a fun and delicious year!' +
-				'<br><br>See you at our next event (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧'
+			text: buildprofile('/static/img/dance.jpg', 'Chào mừng bạn đến trường đại học Yale!' + 
+				'<br><br>My name is Hannah, and I am a freshman in Morse College hailing from Seattle, Washington. I hope to fulfill a science degree in biochemistry at Yale and continue on to medical school, with a particular interest in the business side of healthcare. On campus, I am also involved in the Freshman Class Council and Morse College Council. I am a member of the Yale Cheerleading Squad (Go Bulldogs!), Kappa Kappa Gamma sorority and the Leadership Education and Development (LEAD) Program. '+
+				'<br><br>In my free time, I like to dance with the Yale Phoenix Asian Dance Team and cook food for my friends in the Morse student kitchen… Pho of course!'
 				+'<hr>Email me at <a href="mailto:hannah.truong@yale.edu">hannah.truong@yale.edu</a> '),
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		hide: {
-			event: 'unfocus'
-		},
 		show: {
-			event: 'click'
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
 		},
 		position: {
 			        my: 'top right',  // Position my top left...
 			        at: 'bottom right', // at the bottom right of...
 			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
 			    }
 			});
 } else if (position == 'treasurer') {
@@ -253,16 +286,20 @@
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		hide: {
-			event: 'unfocus'
-		},
 		show: {
-			event: 'click'
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
 		},
 		position: {
 			        my: 'bottom left',  // Position my top left...
 			        at: 'top left', // at the bottom right of...
 			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
 			    }
 			});
 } else if (position == 'cultural') {
@@ -276,16 +313,20 @@
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		hide: {
-			event: 'unfocus'
-		},
 		show: {
-			event: 'click'
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
 		},
 		position: {
 			        my: 'bottom left',  // Position my top left...
 			        at: 'top left', // at the bottom right of...
 			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
 			    }
 			});
 } else if (position == 'historian') {
@@ -299,16 +340,20 @@
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		hide: {
-			event: 'unfocus'
-		},
 		show: {
-			event: 'click'
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
 		},
 		position: {
 			        my: 'bottom right',  // Position my top left...
 			        at: 'top right', // at the bottom right of...
 			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
 			    }
 			});
 } else if (position == 'secretary') {
@@ -322,16 +367,20 @@
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		hide: {
-			event: 'unfocus'
-		},
 		show: {
-			event: 'click'
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
 		},
 		position: {
 			        my: 'bottom right',  // Position my top left...
 			        at: 'top left', // at the bottom right of...
 			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
 			    }
 			});
 } 
