@@ -1,13 +1,37 @@
   $(document).ready(function(){
 	//navbar stick to top
 	$(window).bind('scroll', function() {
-		if ($(window).scrollTop() > ($('#navbar').height() + $('#hero').height()) + 4) {
+		var windowPos = $(window).scrollTop();
+		var homePos = $("#hero-container").outerHeight(true) + $("#navbar").outerHeight(true);
+		var boardPos = homePos + $("#home").outerHeight(true) + $("#welcome-header").outerHeight(true);
+		var eventsPos = boardPos + $("#board").outerHeight(true);
+		var connectPos = eventsPos + $("#events").outerHeight(true);
+		
+
+		if (windowPos > ($('#navbar').outerHeight(true) + $('#hero').outerHeight(true)) + 4) {
 			$('#navbar').addClass('fixed');
 			$('#content').css('padding-top', '80px');
 		}
 		else {
 			$('#navbar').removeClass('fixed');
 			$('#content').css('padding-top', '0px');
+		}
+
+		if (windowPos == 0 || windowPos < homePos){
+			$(".highlight").removeClass("highlight");
+		} else if (windowPos >= homePos && windowPos < boardPos) {
+			$(".highlight").removeClass("highlight");
+			$("#home-link").addClass("highlight");
+		} else if (windowPos >= boardPos && windowPos < eventsPos) {
+			$(".highlight").removeClass("highlight");
+			$("#board-link").addClass("highlight");
+		} else if (windowPos >= eventsPos && windowPos < connectPos) {
+			$(".highlight").removeClass("highlight");
+			$("#events-link").addClass("highlight");
+		}
+		if (windowPos >= connectPos || $(window).scrollTop() + $(window).height() == $(document).height()) {
+			$(".highlight").removeClass("highlight");
+			$("#connect-link").addClass("highlight");
 		}
 	});
 	$('.bxslider').bxSlider({
@@ -31,7 +55,6 @@
 		$('html,body').animate({scrollTop: 0},'slow');
 	});
 
-
 	//add to mailing list
 	$('#mlist').click(function(){
 		$.ajax({
@@ -51,6 +74,8 @@
 		});
 
 	});
+
+
 
 	//profile qtip
 	$('.profile').each(function() { // Grab all elements with a title attribute,and set "this"
@@ -145,7 +170,7 @@ effect: function(offset) {
 		content: { 
 			title: '<h2>Johnny Xu</h2>',
 			text: buildprofile('/static/img/dance.jpg', 'Chào bạn!' + 
-				'<br><br>You can call me Johnny.I spent 52% of my life in Dalian, China (complicated) where I was born, 20% in Canada (freedom), 18% in Seattle (most livable city), and 10% in New Orleans (warm, crawfish).'+
+				'<br><br>You can call me Johnny. I spent 52% of my life in Dalian, China (complicated) where I was born, 20% in Canada (freedom), 18% in Seattle (most livable city), and 10% in New Orleans (warm, crawfish).'+
 				'<br><br>I\'m currently undecided about my major, but I enjoy learning economics and other social sciences very much. I enjoy playing basketball and making music. When the new series come out please watch it at "http://www.fox.com/24-live-another-day/" because it\'s my favorite show other than VISA\'s annual cultural show!' 
 				+'<hr>Let\'s chill at <a href="mailto:zhaoning.xu@yale.edu">zhaoning.xu@yale.edu</a> '),
 			button: true
