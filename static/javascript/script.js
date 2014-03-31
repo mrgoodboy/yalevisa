@@ -113,9 +113,14 @@ effect: function(offset) {
 	$(this).qtip({ 
 		content: { 
 			title: '<h2>Jenny Nguyen</h2>',
-			text: buildprofile('/static/img/dance.jpg', 'Hello friends! <br><br> I’m Kevin (P.), ES ‘16, and I hail from the wild realm of Ohio, from a suburb devoid of much cultural diversity. When I’m not doing Asian things, you can find me playing in DPops and SYO, raising roundworms at the School of Medicine, crying over Kdramas, or getting fat from baked goods and ice cream. I also go to school.' + 
-				'<br><br>I got involved with ViSA last year to make up for this lack of culture in my life, and to obey my mother by making lots of “nice Vietnamese friends”. After a term as social chair, I now humbly serve as co-president of the most beautiful and talented cultural group on campus. I hope you’ll join me and the rest of ViSA in having a fun and delicious year!' +
-				'<br><br>See you at our next event (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧'
+			text: buildprofile('/static/img/dance.jpg', 'As the first half of Team JK,\
+				Jenny is excited to push ViSA to greater heights this year and continue the traditions upheld by all the previous presidents!<br><br>
+			    		Jenny is a proud member of the Jonathan Edwards class of 2016. Hailing from Canada (but living in NYC), she enjoys watching hockey,\
+			    		 building snowmen, being enthused about the simple pleasures of life, shopping, playing musical instruments, singing, dancing, frolicking about,\
+			    		  and exploring new places! <br><br>\
+			    		  Interested in public health, chemistry, French, and creative writing,\
+			    		   Jenny aspires to channel these passions into a future career as a doctor who might make educational scientific/health-related music videos to pass some knowledge onto her patients.\
+			    		    She loves meeting and welcoming new people, especially freshmen, so do not hesitate to reach out!
 				+'<hr>Email me at <a href="mailto:jenny.nguyen@yale.edu">jenny.nguyen@yale.edu</a> '),
 			button: true
 		},
