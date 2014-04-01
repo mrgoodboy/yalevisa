@@ -114,7 +114,7 @@ effect: function(offset) {
 		content: { 
 			title: '<h2>Jenny Nguyen</h2>',
 			text: buildprofile('/static/img/dance.jpg', 'As the first half of Team JK,\
-				Jenny is excited to push ViSA to greater heights this year and continue the traditions upheld by all the previous presidents!<br><br>
+				Jenny is excited to push ViSA to greater heights this year and continue the traditions upheld by all the previous presidents!<br><br>/
 			    		Jenny is a proud member of the Jonathan Edwards class of 2016. Hailing from Canada (but living in NYC), she enjoys watching hockey,\
 			    		 building snowmen, being enthused about the simple pleasures of life, shopping, playing musical instruments, singing, dancing, frolicking about,\
 			    		  and exploring new places! <br><br>\
