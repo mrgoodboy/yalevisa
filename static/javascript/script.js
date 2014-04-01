@@ -120,7 +120,7 @@ effect: function(offset) {
 			    		  and exploring new places! <br><br>\
 			    		  Interested in public health, chemistry, French, and creative writing,\
 			    		   Jenny aspires to channel these passions into a future career as a doctor who might make educational scientific/health-related music videos to pass some knowledge onto her patients.\
-			    		    She loves meeting and welcoming new people, especially freshmen, so do not hesitate to reach out!
+			    		    She loves meeting and welcoming new people, especially freshmen, so do not hesitate to reach out!'
 				+'<hr>Email me at <a href="mailto:jenny.nguyen@yale.edu">jenny.nguyen@yale.edu</a> '),
 			button: true
 		},
