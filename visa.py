@@ -2,7 +2,9 @@ from flask import Flask
 from flask import render_template
 from flask_mail import Mail, Message
 from flask import request
-
+from os import listdir
+from os.path import isfile, join
+import random
 
 
 # configuration
@@ -36,10 +38,13 @@ def mlist():
 
 @app.route('/')
 def index():
-	return render_template('index.html')
+	mypath = 'static/img/events'
+	files = [ join(mypath,f) for f in listdir(mypath) if isfile(join(mypath,f)) ]
+	random.shuffle(files)
+	return render_template('index.html', files=files)
 
 
 
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run()

@@ -134,7 +134,7 @@
 		<div id="events">
 			<h1>Our Awesome Events</h1>
 			<ul class="bxslider">
-				<li><img title="Jenny and Tony chillin'" src="{{ url_for('static', filename='img/events/1.jpg') }}"></li>
+<!-- 				<li><img title="Jenny and Tony chillin'" src="{{ url_for('static', filename='img/events/1.jpg') }}"></li>
 				<li><img title="Fan dance" src="{{ url_for('static', filename='img/events/2.jpg') }}"></li>
 				<li><img title="Our sexy boys" src="{{ url_for('static', filename='img/events/3.jpg') }}"></li>
 				<li><img src="{{ url_for('static', filename='img/events/4.jpg') }}"></li>
@@ -143,6 +143,19 @@
 				<li><img src="{{ url_for('static', filename='img/events/7.jpg') }}"></li>
 				<li><img src="{{ url_for('static', filename='img/events/8.jpg') }}"></li>
 				<li><img src="{{ url_for('static', filename='img/events/9.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/10.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/11.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/12.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/13.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/14.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/15.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/16.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/17.jpg') }}"></li>
+				<li><img src="{{ url_for('static', filename='img/events/18.jpg') }}"></li> -->
+				{% for file in files %}
+				<li><img src="{{file}}"></li>
+				{% endfor%}
+
 
 			</ul>
 		</div>
