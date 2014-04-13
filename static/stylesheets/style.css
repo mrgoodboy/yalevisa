@@ -195,7 +195,7 @@ p {
 	padding-left: 20px;
 	display: inline-block;
 	vertical-align: top;
-	overflow: scroll;
+	overflow: auto;
 }
 
 
@@ -209,6 +209,7 @@ p {
 .tooltip-photo > img {
 	display: inline-block;
 	height: 300px;
+	width: 233px;
 }
 
 
