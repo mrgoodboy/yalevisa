@@ -251,7 +251,8 @@ effect: function(offset) {
 	$(this).qtip({ 
 		content: { 
 			title: '<h2>Kevin A. Nguyen</h2>',
-			text: buildprofile('/static/img/poppics/kevina.jpg', 'Hello friends! <br><br> I\'m Kevin and I am one of ViSA\'s social chairs'
+			text: buildprofile('/static/img/poppics/kevina.jpg', 'Hey, <br><br>\
+				I am a freshman in Branford College and am prospectively majoring in Molecular Biophysics and Biochemistry. A native of Plano, Texas, I am very much involved in research at Yale. Before working at the medical school, I used to intern at the National Cancer Institute. You can sometimes see me throwing a frisbee on old campus, sleeping in a hammock in Branford, or maybe even out partying at Toads, because I’m a totally cool social chair!'
 				+'<hr>Email me at <a href="mailto:kevin.a.nguyen@yale.edu">kevin.a.nguyen@yale.edu</a> '),
 			button: true
 		},
@@ -304,7 +305,10 @@ effect: function(offset) {
 	$(this).qtip({ 
 		content: { 
 			title: '<h2>Gia Hoa Nguyen</h2>',
-			text: buildprofile('/static/img/poppics/giahoa.png', 'Hello friends! <br><br> My name is Gia Hoa and I will be ViSA\'s treasurer for this year.'
+			text: buildprofile('/static/img/poppics/giahoa.png', 'Hi, everyone!<br><br> I’m Giahoa, currently the treasurer for ViSA, and part of Ezra Stiles class of 2017.\
+			 Although I have only been on board for a year, it’s been a wonderful experience I will always look back to because I\'ve learned so much - not only from everyone I worked with- but truly also from the shared memories we each created as a part of this community.\
+			  (Shredding chicken and cutting onions at 1 AM really builds solidarity, woo!).<br><br> Outside of ViSA, I’m also involved with Phoenix and Alive as one of my passions has always been to explore new cultures and languages because I believe these connections really allow us to understand the people around us and the world that we share.\
+			   Though, in my free time, (or more realistically speaking, the “I-have-a-paper-due-next-week-but-I’m-gonna-procrastinate –anyways-stages”) l love to draw, maybe do some kirigami, and of course perfect my paper snowballs (which I am perfecting through my origami skills- or lack thereof). Anyhoo, more than anything, I love being on board because I want to give back to ViSA everything it has given me. '
 				+'<hr>Email me at <a href="mailto:giahoa.nguyen@yale.edu">giahoa.nguyen@yale.edu</a> '),
 			button: true
 		},
@@ -329,7 +333,7 @@ effect: function(offset) {
 	$(this).qtip({ 
 		content: { 
 			title: '<h2>Nancy Tran</h2>',
-			text: buildprofile('/static/img/poppics/nancy.jpg', 'Hello friends! <br><br> My name is Nancy and I am the cultural chair for ViSA this year.'
+			text: buildprofile('/static/img/poppics/nancy.jpg', 'Nancy is a junior in Trumbull College. She majors in East Asian Studies and has studied abroad in Japan in three different locations. Her interests include running, singing, travel, reading about finance and hanging out with her ViSA friends. On campus campus she is a part of the Yale Student Investment Group, and is also Treasurer for Yale\'s Japanese American Student Union. She loves to try new things. She has been apart of the African singing group Asempa!, as well as Danceworks for a semester during her sophomore year.<br><br> She loves helping out, so feel free to reach out to her if you have any questions!'
 				+'<hr>Email me at <a href="mailto:nancy.tran@yale.edu">nancy.tran@yale.edu</a> '),
 			button: true
 		},
@@ -354,7 +358,9 @@ effect: function(offset) {
 	$(this).qtip({ 
 		content: { 
 			title: '<h2>Tony Nguyen</h2>',
-			text: buildprofile('/static/img/poppics/tony.png', 'Hello friends! <br><br> My name is Tony and I am ViSA\'s historian. I am an passionate debater so I am mostly away on weekends.' 
+			text: buildprofile('/static/img/poppics/tony.png', 'Hello friends! <br><br> My name is Tony, and I\'m a rising junior/class of 2016 in Davenport College. I\'m from Chandler, Arizona and majoring in Ethics, Politics, and Economics.\
+Besides being ViSA\'s historian, I am part of the Yale Debate Association, which competes at debate tournaments across the U.S. and internationally. I also work as a Student Tech fixing computers on campus and am a research assistant in the Political Science department. <br><br>\
+In my free time, I enjoy exploring New Haven\'s restaurants and coffee shops, reading articles on The Onion, and watching movies.'
 				+'<hr>Email me at <a href="mailto:tony.nguyen@yale.edu">tony.nguyen@yale.edu</a> '),
 			button: true
 		},
@@ -379,7 +385,7 @@ effect: function(offset) {
 	$(this).qtip({ 
 		content: { 
 			title: '<h2>Mimi Pham</h2>',
-			text: buildprofile('/static/img/poppics/mimi.jpg', 'Hello friends! <br><br> I am ViSA\'s secretary'
+			text: buildprofile('/static/img/poppics/mimi.jpg', 'Mimi Pham is a freshman in Morse College. She is a prospective Economics major who hails from the wonderful land of Tampa, FL. She likes to eat and nap and shop in her free time. Whenever those things aren\'t options, she also volunteers with YHHAP or can be found fulfilling her Morse duties as a Master\'s Aide.'
 				+'<hr>Email me at <a href="mailto:mimi.pham@yale.edu">mimi.pham@yale.edu</a> '),
 			button: true
 		},

@@ -5,11 +5,12 @@
 }
 
 body {
-	width: 100%;
 	padding-top: 85px;
 	background-color: #000000;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 100%;
+
+
 
 }
 
@@ -81,7 +82,7 @@ z-index: 10000000;
 
 #content {
 	background-color: #FFFBF6;
-	width: 100%;
+
 }
 
 
