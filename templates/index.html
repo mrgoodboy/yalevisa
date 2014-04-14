@@ -153,7 +153,9 @@
 				<li><img src="{{ url_for('static', filename='img/events/17.jpg') }}"></li>
 				<li><img src="{{ url_for('static', filename='img/events/18.jpg') }}"></li> -->
 				{% for file in files %}
+				{% if file != '.DS_Store' %}
 				<li><img src="{{file}}"></li>
+				{% endif %}
 				{% endfor%}
 
 
