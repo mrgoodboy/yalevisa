@@ -6,7 +6,7 @@
 
 body {
 	padding-top: 85px;
-	background-color: #000000;
+	background-color: #ffeeee;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 100%;
 
@@ -22,6 +22,13 @@ hr {
 	width: 77%;
 }
 
+#container {
+	width: 1280px;
+	margin:0 auto;
+	box-shadow: 10px 0px 5px -5px #999, -10px 0px 5px -5px #999;
+
+}
+
 .anchor {
 	top: -80px;
 	position: relative;
@@ -31,24 +38,28 @@ hr {
 #logo {
 	height: 80px;
 	position: fixed;
-	top: 0px;
-	left: 30px;
+	margin: 0.5em;
 	z-index: 12000000000001;
+}
+#hero-container {
+	margin-top: -85px;
+		background-color: black;
+
+
 }
 
 #hero {
-	width: 100%;
+	width: 1280px;
 }
 
 
 #navbar {
-/*	position: relative;
-*/	height: 85px;
-width: 65%;
+
+height: 85px;
+width: 830px;
 background-color: #000000;
-margin-top: -4px;
-padding-left: 20%;
-padding-right: 15%;
+padding-left: 250px;
+padding-right: 200px;
 z-index: 10000000;
 }
 
@@ -78,8 +89,7 @@ z-index: 10000000;
 .fixed {
 	position: fixed; 
 	top: 0; 
-	height: 125px; 
-	z-index: 1;
+	height: 92px;
 }
 
 /*content*/	

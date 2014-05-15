@@ -8,9 +8,9 @@
 		var connectPos = eventsPos + $("#events").outerHeight(true);
 		
 
-		if (windowPos > ($('#navbar').outerHeight(true) + $('#hero').outerHeight(true)) + 4) {
+		if (windowPos > ($('#hero').outerHeight(true))) {
 			$('#navbar').addClass('fixed');
-			$('#content').css('padding-top', '80px');
+			$('#content').css('padding-top', '85px');
 		}
 		else {
 			$('#navbar').removeClass('fixed');
