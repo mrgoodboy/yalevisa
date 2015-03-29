@@ -1,3 +1,62 @@
+  var profiles = {
+  	president1: {
+  		name: "Giahoa Nguyen",
+  		email: "giahoa.nguyen@yale.edu",
+  		bio: "Hi, everyone! <br> I’m Giahoa, one of your 2015 ViSA co-presidents and part of Ezra Stiles class of 2017! Having been on board for nearly two years, I can honestly say that it’s been a wonderful experience I will always look back to because I've learned so much - not only from everyone I worked with- but truly also from the shared memories we each created as a part of this community. (Shredding chicken and cutting onions at 1 AM really builds solidarity, woo!).   Outside of ViSA, you can probably find me either running up and down science Hill or dancing to Kpop discretely in Bass (if I can find my left foot).  Though I’m also heavily involved with Phoenix, Danceworks, and YHACK as well. In my free time, (or more realistically speaking, the “I-have-a-paper-due-next-week-but-I’m-gonna-procrastinate –anyways-stages”) l love to draw and paint, create some kirigami, and of course perfect my paper snowballs (which I am perfecting through my origami skills- or lack thereof). Ultimately, as a member of ViSA, I just hope to continue our tradition of laughter, love, Nguyen-ers and Pham-ilies!"
+  	},
+  	president2: {
+  		name: "Mimi Pham",
+  		email: "mimi.pham@yale.edu",
+  		bio: "Hi everyone! <br>My name is Mimi, I hail from the wonderful land of Tampa, Florida, and I am part of Morse College's class of 2017! I am one of the co-presidents of ViSA this year along with my lovely partner in crime, Giahoa. Firstly and most importantly, if you ever have any questions regarding ViSA at Yale or just life in general, please do send me an email! I would love to help out in any way I can!<br>Apart from serving my Vietnamese and general Asian community at Yale, you can find me enjoying all of the wonderful food that New Haven has to offer, shopping away my school stress, or napping because napping is the best. On a more serious note, I am a Morse College Master's Aide, I volunteer for ReadySetLaunch!, am the Chief of Operations for Yale Undergraduate Diversified Investments, and am a mentor for the Jones Zimmerman Academic Mentoring Program.<br>Most importantly, though, is my role in ViSA and the role that ViSA plays in my life and how it has helped connect me with some of the most amazing and caring people that I've met at Yale. ViSA, in my opinion, is honestly one of the most loving and inclusive communities at Yale, and because of that, I hope to see you at a future event some time soon!"
+  	},
+  	social1: {
+  		name: "George Huynh",
+  		email: "george.huynh@yale.edu",
+  		bio: "My name is George, and I'm a proud member of Timothy Dwight Class of 2018 from the amazing city of Boston, MA. When I'm not performing social chair duties, I can be found doing homework, winning IM sports with my fellow TD red lions, copy editing at the Yale Daily News, or checking out things, especially books, at Bass Library. In my spare time, I love to play basketball and League of Legends, sing, and chill out—I'm down for anything, though. <br>Being part of ViSA has given me such a wonderful, supportive family, and I hope you consider joining us! :D"
+  	},
+  	social2: {
+  		name: "Thanh Tran",
+  		email: "thanh.tran@yale.edu",
+  		bio: "Chào người đẹp, <br>My name is Thanh Tran, freshman in TD. I'm going to be one of your social chairs for this year. I lived in sunny Los Angeles for most of my life #westcoastbestcoast. I really love good music, good eats, good sleep, good workouts, and nice clothes. I really want to make this year a fun year for all of you guys so if you have have any epic ideas send me a quick message."
+  	},
+  	publicity1: {
+  		name: "Jackie Ly",
+  		email: "jacqueline.ly@yale.edu",
+  		bio: "Hi guys! <br> My name is Jackie and I am excited to be this year's ViSA Publicity Chair. I am currently a sophomore in Calhoun College and come from Newton, MA, a suburb just outside of Boston. At Yale, I am also involved in the Chinese American Student Association and tutor at the Co-Op High School. In my free time, I love to watch movies, listen to music, and eat clementines. If you have any questions about anything, feel free to shoot me an email!"
+  	},
+  	cultural1: {
+  		name: "Eric Phung",
+  		email: "eric.phung@yale.edu",
+  		bio: "Hi everyone! <br> My name is Eric Phung, and I am part of the Class of 2017 in Trumbull College. I am currently contemplating a double major in History and Ethnicity, Race, and Migration. I'm from Oakland, California, where there has always been a rich and vibrant Vietnamese community, so I'm very happy to be a part of ViSA and to be able to recreate that kind of culture on Yale's campus.<br> Aside from being the Cultural Chair for ViSA, I perform poetry with the ¡Oye! Spoken Word poetry group and teach English classes with Bridges ESL. Tumblr is also usually pretty fun.  "
+  	},
+  	secretary1: {
+  		name: "Emma Dinh",
+  		email: "phuongtruc.dinh@yale.edu",
+  		bio: "Xin chào các bạn!<br><br>I'm Emma, your beloved ViSA secretary. I lived in Vietnam for 13 years before moving to Connecticut, and I'm now a proud member of Morse '18. Currently undecided in my studies, I plan to pursue a degree in STEM or Social Sciences. On campus, I help plan events for the Undergraduate Women in Science at Yale, dance in Danceworks, and work as an Undergraduate Research Associate in Science Education with the Yale Center for Teaching and Learning. I love sleep (which I never get enough of), the beach, puppies, books, inspirational quotes, Bruno Mars, Vietnamese food, and of course, ViSA <3 <br><br>I went to a ViSA's weekly dinner the first week of my freshman year and have been hooked ever since. I met some of my best friends on campus through ViSA, and I'm beyond grateful to have found a community of such talented, dedicated, all-around awesome people whom I can relate to both on a cultural and personal level.  #ViSquad5ever"
+  	},
+  	treasurer1: {
+  		name: "Jamie Nguyen",
+  		email: "jamie.nguyen@yale.edu",
+  		bio: "Hi! <br>My name is Jamie Nguyen, and I am currently a freshman in Saybrook. I am this year’s treasurer, and I’m pretty excited to be on board. My interests include squirrels, biochemistry, and indie music, but mostly squirrels. I can’t get enough of them sometimes. They’re everywhere and will probably take over the world. I hope to be speaking squirrel by then. Even though I have an affinity for these furry creatures, I still pride myself on keeping ViSA funded and moving efficiently. If you’re talking money, I’m speaking your language. If not, then talk to me about squirrels, biochemistry, or even music! I’m an undercover hipster."
+  	},
+  	political1: {
+  		name: "Titania Nguyen",
+  		email: "titania.nguyen@yale.edu",
+  		bio: "Hey, <br> My name is Titania Nguyen, Branford '18, and I'm the Political Chair of ViSA! I'm from the sunny land of Boston, MA. I'm currently undecided about my major, but I'm hoping to do something with neuroscience and potentially go to law school. I'm part of the Roosevelt Center, the Political Action and Education Committee, and the Asian American Studies Task Force. In my free time, I sing, dance, play guitar, and am generally a bit of a troll. <br>I love ViSA so much because as a cultural group, we're really close to each other. Even though I came from a community without that many Vietnamese people around, I felt like I belonged here just as much as anyone else. From roll call to \"board bonding\", I've already had so many great times here. Here's to a great year ahead!"
+  	},
+  	historian1: {
+  		name: "Luying Yan",
+  		email: "luying.yan@yale.edu",
+  		bio: "Luying Yan (MC '17) is a prospective molecular, cellular and developmental biology major from New York City with dreams of becoming a surgeon.  In addition to serving as historian for ViSA, Luying is also director of RSLHotline and Social media for ReadySetLaunch and a proud member of Yale's badminton team.  Her favorite pastimes include traveling, eating, riding roller coasters and shopping.  When those aren't options, she'll settle for a sappy romantic comedy and a bag of salt and vinegar chips."
+  	},
+  	webmaster1: {
+  		name: "Minh Tri Pham",
+  		email: "minhtri.pham@yale.edu",
+  		bio: "Yo! <br>I’m Minh, da big webmasta. I grew up in the Czech Republic and went to a German school there. I love Vietnamese food, culture, people, etc. I am a programmer and like working on all kinds of super cool projects. I also play squash, drink/brew beer, and listen to a lot of music. Hit me up!"
+  	}
+  }
+
+
   $(document).ready(function(){
 	//navbar stick to top
 	$(window).bind('scroll', function() {
@@ -84,11 +143,8 @@
 		if (position == 'president1') {
 			$(this).qtip({ 
 				content: { 
-					title: '<h2>Kevin Nguyen</h2>',
-					text: buildprofile('/static/img/poppics/kevin.jpg', 'Hello friends! <br><br> I’m Kevin (P.), ES ‘16, and I hail from the wild realm of Ohio, from a suburb devoid of much cultural diversity. When I’m not doing Asian things, you can find me playing in DPops and SYO, raising roundworms at the School of Medicine, crying over Kdramas, or getting fat from baked goods and ice cream. I also go to school.' + 
-						'<br><br>I got involved with ViSA last year to make up for this lack of culture in my life, and to obey my mother by making lots of “nice Vietnamese friends”. After a term as social chair, I now humbly serve as co-president of the most beautiful and talented cultural group on campus. I hope you’ll join me and the rest of ViSA in having a fun and delicious year!' +
-						'<br><br>See you at our next event (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧'
-						+'<hr>Email me at <a href="mailto:kevin.nguyen@yale.edu">kevin.nguyen@yale.edu</a> '),
+					title: '<h2>Giahoa Nguyen</h2>',
+					text: buildprofile('president1', profiles.president1.bio),
 					button: true
 				},
 				style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
@@ -113,11 +169,8 @@ effect: function(offset) {
 } else if (position == 'president2') {
 	$(this).qtip({ 
 		content: { 
-			title: '<h2>Jenny Nguyen</h2>',
-			text: buildprofile('/static/img/poppics/jenny.png', 'Hi there!\
-				<br><br>My name is Jenny, and I am a proud member of the Jonathan Edwards class of 2016. Hailing from Canada (but living in NYC), I enjoy watching hockey,	 building snowmen, being enthused about everything, shopping, playing musical instruments, singing, dancing, frolicking about,	 and exploring new places. As the first half of Team JK, I am excited to push ViSA to greater heights this year and continue the traditions upheld by our predecessors!\
-				<br><br>Interested in public health, chemistry, French, and creative writing, I aspire to channel these passions into a future career as a doctor who might make educational scientific/health-related music videos to pass some knowledge onto my patients. I love meeting and welcoming new people, especially freshmen, so do not hesitate to reach out!'
-				+'<hr>Email me at <a href="mailto:jenny.nguyen@yale.edu">jenny.nguyen@yale.edu</a> '),
+			title: '<h2>Mimi Pham</h2>',
+			text: buildprofile('president2', profiles.president2.bio),
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
@@ -138,14 +191,11 @@ effect: function(offset) {
 			    	event: 'click'
 			    }
 			});
-} else if (position == 'political1') {
+} else if (position == 'social1') {
 	$(this).qtip({ 
 		content: { 
-			title: '<h2>Mark Pham</h2>',
-			text: buildprofile('/static/img/poppics/mark.jpg', 'Hi guys! <br><br>' + 
-				'I hail from the beautiful suburb of Springfield, Virginia, where I moved to from Saigon five years ago.  A poli sci major, I love anything  diplomacy, in theory as well as practice.  Eventually, I want to work for the State Department and serve as an IR professor somewhere.' + 
-				'<br><br>In my free time, if there is ever any, I enjoy hanging out with  friends and playing sports.  Most recently, I\'ve rediscovered my passion for soccer. I\'m terrible at it, but haven\'t given up.  As Vietnamese like to say, "Đá hay không bằng hay đá" (playing soccer often is better than just being good at it).  So hopefully, one of these days my wish to persist will reward me with a goal....or at least prevent me from scoring one in the wrong end :D'
-				+'<hr>Email me at <a href="mailto:mark.pham@yale.edu">mark.pham@yale.edu</a> '),
+			title: '<h2>George Huynh</h2>',
+			text: buildprofile('social1', profiles.social1.bio),
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
@@ -166,95 +216,60 @@ effect: function(offset) {
 			    }
 
 			});
-} else if (position == 'political2') {
-	$(this).qtip({ 
-		content: { 
-			title: '<h2>Johnny Xu</h2>',
-			text: buildprofile('/static/img/poppics/johnny.jpg', 'Chào bạn!' + 
-				'<br><br>You can call me Johnny. I spent 52% of my life in Dalian, China (complicated) where I was born, 20% in Canada (freedom), 18% in Seattle (most livable city), and 10% in New Orleans (warm, crawfish).'+
-				'<br><br>I\'m currently undecided about my major, but I enjoy learning economics and other social sciences very much. I enjoy playing basketball and making music. When the new series come out please watch it at "http://www.fox.com/24-live-another-day/" because it\'s my favorite show other than VISA\'s annual cultural show!' 
-				+'<hr>Let\'s chill at <a href="mailto:zhaoning.xu@yale.edu">zhaoning.xu@yale.edu</a> '),
-			button: true
-		},
-		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		show: {
-			event: 'click',
-			solo:true,
-effect: function(offset) {
-            $(this).fadeIn(300); // "this" refers to the tooltip
-        }
-		},
-		position: {
-			        my: 'top right',  // Position my top left...
-			        at: 'bottom left', // at the bottom right of...
-			        target: $(this) // my target
-			    },
-			    hide: {
-			    	event: 'click'
-			    }
-			});
-} else if (position == 'social1') {
-	$(this).qtip({ 
-		content: { 
-			title: '<h2>Minh Tri Pham</h2>',
-			text: buildprofile('/static/img/poppics/minh.jpg', 'Yo! <br><br> I’m Minh and I come from the Czech Republic. My parents are Vietnamese, but I went to a German school in Prague. I am a programmer and designer and love working on useless (but super cool) projects. When I grow up, I want to become a tech entrepreneur, but right now I like watching Bayern Munich, learning new languages, drinking Pilsner Urquell, playing billiards, and betting on sports.'
-				+'<hr>Email me at <a href="mailto:minhtri.pham@yale.edu">minhtri.pham@yale.edu</a> '),
-			button: true
-		},
-		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		show: {
-			event: 'click',
-			solo:true,
-effect: function(offset) {
-            $(this).fadeIn(300); // "this" refers to the tooltip
-        }
-		},
-		position: {
-			        my: 'top left',  // Position my top left...
-			        at: 'bottom right', // at the bottom right of...
-			        target: $(this) // my target
-			    },
-			    hide: {
-			    	event: 'click'
-			    }
-			});
-} else if (position == 'social3') {
-	$(this).qtip({ 
-		content: { 
-			title: '<h2>Jason Liu</h2>',
-			text: buildprofile('/static/img/poppics/jason.jpg', 
-				'Hi guys,<br><br> \
-				 I’m going to be one of the social chairs for ViSA this year. I come from Pearland, Texas. I like to take pictures of things, so don’t be alarmed if you catch me snapping away at you!\
-				  New kinds of food are always amazing and I also love watching intense movies.\
-				   Buzzfeed takes up 23.48% of my life. I’m excited for a great year full of FUN and CRAZY and CULTURAL activities!\
-				    <br><br>Shoot me an email if you want to chat or hang!'
-				+'<hr>Email me at <a href="mailto:jason.j.liu@yale.edu">jason.j.liu@yale.edu</a> '),
-			button: true
-		},
-		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		show: {
-			event: 'click',
-			solo:true,
-effect: function(offset) {
-            $(this).fadeIn(300); // "this" refers to the tooltip
-        }
-		},
-		position: {
-			        my: 'top right',  // Position my top left...
-			        at: 'bottom right', // at the bottom right of...
-			        target: $(this) // my target
-			    },
-			    hide: {
-			    	event: 'click'
-			    }
-			});
 } else if (position == 'social2') {
 	$(this).qtip({ 
 		content: { 
-			title: '<h2>Kevin A. Nguyen</h2>',
-			text: buildprofile('/static/img/poppics/kevina.jpg', 'Hey, <br><br>\
-				I am a freshman in Branford College and am prospectively majoring in Molecular Biophysics and Biochemistry. A native of Plano, Texas, I am very much involved in research at Yale. Before working at the medical school, I used to intern at the National Cancer Institute. You can sometimes see me throwing a frisbee on old campus, sleeping in a hammock in Branford, or maybe even out partying at Toads, because I’m a totally cool social chair!'
-				+'<hr>Email me at <a href="mailto:kevin.a.nguyen@yale.edu">kevin.a.nguyen@yale.edu</a> '),
+			title: '<h2>Thanh Tran</h2>',
+			text: buildprofile('social2', profiles.social2.bio),
+			button: true
+		},
+		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
+		show: {
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
+		},
+		position: {
+			        my: 'top right',  // Position my top left...
+			        at: 'bottom left', // at the bottom right of...
+			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
+			    }
+			});
+} else if (position == 'publicity1') {
+	$(this).qtip({ 
+		content: { 
+			title: '<h2>Jackie Ly</h2>',
+			text: buildprofile('publicity1', profiles.publicity1.bio),
+			button: true
+		},
+		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
+		show: {
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
+		},
+		position: {
+			        my: 'top left',  // Position my top left...
+			        at: 'bottom right', // at the bottom right of...
+			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
+			    }
+			});
+} else if (position == 'political1') {
+	$(this).qtip({ 
+		content: { 
+			title: '<h2>Titania Nguyen</h2>',
+			text: buildprofile('political1',profiles.political1.bio),
+				
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
@@ -274,15 +289,11 @@ effect: function(offset) {
 			    	event: 'click'
 			    }
 			});
-} else if (position == 'publicity') {
+} else if (position == 'cultural1') {
 	$(this).qtip({ 
 		content: { 
-			title: '<h2>Hannah Truong</h2>',
-			text: buildprofile('/static/img/poppics/hannah.jpg', 'Chào mừng bạn đến trường đại học Yale!' + 
-				'<br><br>My name is Hannah, and I am a freshman in Morse College hailing from Seattle, Washington. I hope to fulfill a science degree in biochemistry at Yale and continue on to medical school, with a particular interest in the business side of healthcare. '+
-				'<br><br>On campus, I am also involved in the Freshman Class Council and Morse College Council. I am a member of the Yale Cheerleading Squad (Go Bulldogs!), Kappa Kappa Gamma sorority and the Leadership Education and Development (LEAD) Program. '+
-				'<br><br>In my free time, I like to dance with the Yale Phoenix Asian Dance Team and cook food for my friends in the Morse student kitchen… Pho of course!'
-				+'<hr>Email me at <a href="mailto:hannah.truong@yale.edu">hannah.truong@yale.edu</a> '),
+			title: '<h2>Eric Phung</h2>',
+			text: buildprofile('cultural1',profiles.cultural1.bio),
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
@@ -302,15 +313,35 @@ effect: function(offset) {
 			    	event: 'click'
 			    }
 			});
-} else if (position == 'treasurer') {
+} else if (position == 'treasurer1') {
 	$(this).qtip({ 
 		content: { 
-			title: '<h2>Gia Hoa Nguyen</h2>',
-			text: buildprofile('/static/img/poppics/giahoa.png', 'Hi, everyone!<br><br> I’m Giahoa, currently the treasurer for ViSA, and part of Ezra Stiles class of 2017.\
-			 Although I have only been on board for a year, it’s been a wonderful experience I will always look back to because I\'ve learned so much - not only from everyone I worked with- but truly also from the shared memories we each created as a part of this community.\
-			  (Shredding chicken and cutting onions at 1 AM really builds solidarity, woo!).<br><br> Outside of ViSA, I’m also involved with Phoenix and Alive as one of my passions has always been to explore new cultures and languages because I believe these connections really allow us to understand the people around us and the world that we share.\
-			   Though, in my free time, (or more realistically speaking, the “I-have-a-paper-due-next-week-but-I’m-gonna-procrastinate –anyways-stages”) l love to draw, maybe do some kirigami, and of course perfect my paper snowballs (which I am perfecting through my origami skills- or lack thereof). Anyhoo, more than anything, I love being on board because I want to give back to ViSA everything it has given me. '
-				+'<hr>Email me at <a href="mailto:giahoa.nguyen@yale.edu">giahoa.nguyen@yale.edu</a> '),
+			title: '<h2>Jamie Nguyen</h2>',
+			text: buildprofile('treasurer1',profiles.treasurer1.bio),
+			button: true
+		},
+		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
+		show: {
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
+		},
+		position: {
+			        my: 'top right',  // Position my top left...
+			        at: 'bottom right', // at the bottom right of...
+			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
+			    }
+			});
+} else if (position == 'secretary1') {
+	$(this).qtip({ 
+		content: { 
+			title: '<h2>Emma Dinh</h2>',
+			text: buildprofile('secretary1',profiles.secretary1.bio),
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
@@ -330,39 +361,11 @@ effect: function(offset) {
 			    	event: 'click'
 			    }
 			});
-} else if (position == 'cultural') {
+} else if (position == 'historian1') {
 	$(this).qtip({ 
 		content: { 
-			title: '<h2>Nancy Tran</h2>',
-			text: buildprofile('/static/img/poppics/nancy.jpg', 'Nancy is a junior in Trumbull College. She majors in East Asian Studies and has studied abroad in Japan in three different locations. Her interests include running, singing, travel, reading about finance and hanging out with her ViSA friends. On campus campus she is a part of the Yale Student Investment Group, and is also Treasurer for Yale\'s Japanese American Student Union. She loves to try new things. She has been apart of the African singing group Asempa!, as well as Danceworks for a semester during her sophomore year.<br><br> She loves helping out, so feel free to reach out to her if you have any questions!'
-				+'<hr>Email me at <a href="mailto:nancy.tran@yale.edu">nancy.tran@yale.edu</a> '),
-			button: true
-		},
-		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
-		show: {
-			event: 'click',
-			solo:true,
-effect: function(offset) {
-            $(this).fadeIn(300); // "this" refers to the tooltip
-        }
-		},
-		position: {
-			        my: 'bottom left',  // Position my top left...
-			        at: 'top left', // at the bottom right of...
-			        target: $(this) // my target
-			    },
-			    hide: {
-			    	event: 'click'
-			    }
-			});
-} else if (position == 'historian') {
-	$(this).qtip({ 
-		content: { 
-			title: '<h2>Tony Nguyen</h2>',
-			text: buildprofile('/static/img/poppics/tony.png', 'Hello friends! <br><br> My name is Tony, and I\'m a rising junior/class of 2016 in Davenport College. I\'m from Chandler, Arizona and majoring in Ethics, Politics, and Economics.\
-Besides being ViSA\'s historian, I am part of the Yale Debate Association, which competes at debate tournaments across the U.S. and internationally. I also work as a Student Tech fixing computers on campus and am a research assistant in the Political Science department. <br><br>\
-In my free time, I enjoy exploring New Haven\'s restaurants and coffee shops, reading articles on The Onion, and watching movies.'
-				+'<hr>Email me at <a href="mailto:tony.nguyen@yale.edu">tony.nguyen@yale.edu</a> '),
+			title: '<h2>Luying Yan</h2>',
+			text: buildprofile('historian1',profiles.historian1.bio),
 			button: true
 		},
 		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
@@ -382,7 +385,31 @@ effect: function(offset) {
 			    	event: 'click'
 			    }
 			});
-} else if (position == 'secretary') {
+} else if (position == 'webmaster1') {
+	$(this).qtip({ 
+		content: { 
+			title: '<h2>Minh Tri Pham</h2>',
+			text: buildprofile('webmaster1',profiles.webmaster1.bio),
+			button: true
+		},
+		style: { classes: 'qtip-rounded qtip-shadow qtip-bootstrap tooltip' },
+		show: {
+			event: 'click',
+			solo:true,
+effect: function(offset) {
+            $(this).fadeIn(300); // "this" refers to the tooltip
+        }
+		},
+		position: {
+			        my: 'bottom left',  // Position my top left...
+			        at: 'top left', // at the bottom right of...
+			        target: $(this) // my target
+			    },
+			    hide: {
+			    	event: 'click'
+			    }
+			});
+} else if (position == 'secretary2') {
 	$(this).qtip({ 
 		content: { 
 			title: '<h2>Mimi Pham</h2>',
@@ -411,10 +438,10 @@ effect: function(offset) {
 });
 
 
-  function buildprofile(src, description) {
+  function buildprofile(position, bio) {
   	var profile = $(document.createElement('div'));
   	profile.addClass('profile-tooltip');
-  	profile.html('<div class="tooltip-photo"><img src="'+ src +'"></div><div class="description">' + description + '</description>');
+  	profile.html('<div class="tooltip-photo"><img src="static/img/poppics/'+ position +'.jpg"></div><div class="description">' + bio + '<hr>Email me at ' + '<a href="mailto:' + profiles[position].email+ '">' +profiles[position].email + '</a></description>');
   	return profile;
 
   };
